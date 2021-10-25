@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!--
+	Shine by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shine - Responsive Template | Template Stock</title>
+
+
+    <!-- WEB FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- BOOTSTRAP -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- CUSTOM STYLING -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- PRELOADER -->
+    <link href="css/loader.css" rel="stylesheet">
+
+
+    <script type="text/javascript">
+        function myFunction() {
+
+            var select = document.getElementById("neighborhood");
+
+
+            var options = [
+                'Neighborhood_57 من المخطط رقم 258…',
+                'Neighborhood_أحد',
+                'Neighborhood_أخرى',
+                'Neighborhood_ابو طليحة',
+                'Neighborhood_ارضة الجو منطقة العز…',
+                'Neighborhood_اسكان الجزيره',
+                'Neighborhood_اشبيليا',
+                'Neighborhood_الازدهار',
+                'Neighborhood_الامانة',
+                'Neighborhood_الاندلس',
+                'Neighborhood_البديعة',
+                'Neighborhood_البرية',
+                'Neighborhood_البطحاء',
+                'Neighborhood_البيان',
+                'Neighborhood_التعاون',
+                'Neighborhood_الجامعة',
+                'Neighborhood_الجبس',
+                'Neighborhood_الجرادية',
+                'Neighborhood_الجزيرة',
+                'Neighborhood_الجنادرية',
+                'Neighborhood_الحائر',
+                'Neighborhood_الحزم',
+                'Neighborhood_الحمراء',
+                'Neighborhood_الحنو',
+                'Neighborhood_الخالدية',
+                'Neighborhood_الخزامى',
+                'Neighborhood_الخليج',
+                'Neighborhood_الخير',
+                'Neighborhood_الدار البيضاء',
+                'Neighborhood_الدريهمية',
+                'Neighborhood_الدفاع',
+                'Neighborhood_الدوبية',
+                'Neighborhood_الديرة',
+                'Neighborhood_الرائد',
+                'Neighborhood_الرابية',
+                'Neighborhood_الراية',
+                'Neighborhood_الربوة',
+                'Neighborhood_الربيع',
+                'Neighborhood_الرحمانية',
+                'Neighborhood_الرسالة',
+                'Neighborhood_الرفيعة',
+                'Neighborhood_الرمال',
+                'Neighborhood_الروابى',
+                'Neighborhood_الروضة',
+                'Neighborhood_الريان',
+                'Neighborhood_الزاهر',
+                'Neighborhood_الزهراء',
+                'Neighborhood_الزهرة',
+                'Neighborhood_الزهور',
+                'Neighborhood_السعادة',
+                'Neighborhood_السلام',
+                'Neighborhood_السلى',
+                'Neighborhood_السليمانية',
+                'Neighborhood_السويدى',
+                'Neighborhood_الشرفية',
+                'Neighborhood_الشرق',
+                'Neighborhood_الشعاب',
+                'Neighborhood_الشعلة',
+                'Neighborhood_الشفاء',
+                'Neighborhood_الشمال',
+                'Neighborhood_الشميسى',
+                'Neighborhood_الشهداء',
+                'Neighborhood_الصالحية',
+                'Neighborhood_الصحافة',
+                'Neighborhood_الصفاء',
+                'Neighborhood_الصناعية',
+                'Neighborhood_الضباط',
+                'Neighborhood_الطويلعة',
+                'Neighborhood_العارض',
+                'Neighborhood_العجلية',
+                'Neighborhood_العريجاء',
+                'Neighborhood_العزيزية',
+                'Neighborhood_العقيق',
+                'Neighborhood_العلا',
+                'Neighborhood_العليا',
+                'Neighborhood_العمل',
+                'Neighborhood_العوالي',
+                'Neighborhood_العود',
+                'Neighborhood_الغدير',
+                'Neighborhood_الغروب',
+                'Neighborhood_الغنامية',
+                'Neighborhood_الفاخرية',
+                'Neighborhood_الفاروق',
+                'Neighborhood_الفلاح',
+                'Neighborhood_الفواز',
+                'Neighborhood_الفوطة',
+                'Neighborhood_الفيحاء',
+                'Neighborhood_الفيصلية',
+                'Neighborhood_القادسية',
+                'Neighborhood_القدس',
+                'Neighborhood_القرى',
+                'Neighborhood_القيروان',
+                'Neighborhood_المؤتمرات',
+                'Neighborhood_المحمدية',
+                'Neighborhood_المدينة الصناعية الج…',
+                'Neighborhood_المربع',
+                'Neighborhood_المرسلات',
+                'Neighborhood_المرقب',
+                'Neighborhood_المروة',
+                'Neighborhood_المروج',
+                'Neighborhood_المشاعل',
+                'Neighborhood_المشرق',
+                'Neighborhood_المصانع',
+                'Neighborhood_المصفاة',
+                'Neighborhood_المصيف',
+                'Neighborhood_المعذر',
+                'Neighborhood_المعيزلية',
+                'Neighborhood_المغرزات',
+                'Neighborhood_الملز',
+                'Neighborhood_الملقا',
+                'Neighborhood_الملك عبد الله',
+                'Neighborhood_الملك عبدالعزيز',
+                'Neighborhood_الملك فهد',
+                'Neighborhood_الملك فيصل',
+                'Neighborhood_المليحية',
+                'Neighborhood_المناخ',
+                'Neighborhood_المنار',
+                'Neighborhood_المنصورة',
+                'Neighborhood_المنصورية',
+                'Neighborhood_المنقع',
+                'Neighborhood_المهدية',
+                'Neighborhood_المونسية',
+                'Neighborhood_الناصرية',
+                'Neighborhood_النخبة',
+                'Neighborhood_النخيل',
+                'Neighborhood_الندوة',
+                'Neighborhood_الندى',
+                'Neighborhood_النرجس',
+                'Neighborhood_النزهة',
+                'Neighborhood_النسيم',
+                'Neighborhood_النظيم',
+                'Neighborhood_النفل',
+                'Neighborhood_النموذجية',
+                'Neighborhood_النهضة',
+                'Neighborhood_النور',
+                'Neighborhood_الهدا',
+                'Neighborhood_الواحة',
+                'Neighborhood_الوادي',
+                'Neighborhood_الورود',
+                'Neighborhood_الوزارات',
+                'Neighborhood_الوسيطا',
+                'Neighborhood_الوشام',
+                'Neighborhood_الياسمين',
+                'Neighborhood_اليرموك',
+                'Neighborhood_اليمامة',
+                'Neighborhood_ام الحمام',
+                'Neighborhood_ام سليم',
+                'Neighborhood_بدر',
+                'Neighborhood_بنبان',
+                'Neighborhood_تلال',
+                'Neighborhood_ثليم',
+                'Neighborhood_جبره',
+                'Neighborhood_جرير',
+                'Neighborhood_حطين',
+                'Neighborhood_حلة بن دايل',
+                'Neighborhood_خنشليلة',
+                'Neighborhood_درة العروس',
+                'Neighborhood_دعكنة',
+                'Neighborhood_ديراب',
+                'Neighborhood_سكيرينة',
+                'Neighborhood_سلطانة',
+                'Neighborhood_شبرا',
+                'Neighborhood_شرق الرياض',
+                'Neighborhood_شمال الرياض',
+                'Neighborhood_صلاح الدين',
+                'Neighborhood_صياح',
+                'Neighborhood_طريق الحجاز',
+                'Neighborhood_طريق الخرج',
+                'Neighborhood_طريق خريص',
+                'Neighborhood_طويق',
+                'Neighborhood_طيبة',
+                'Neighborhood_عتيقة',
+                'Neighborhood_عرقه',
+                'Neighborhood_عريض',
+                'Neighborhood_عكاظ',
+                'Neighborhood_عليشة',
+                'Neighborhood_غبيراء',
+                'Neighborhood_غرناطة',
+                'Neighborhood_قرطبة',
+                'Neighborhood_لبن',
+                'Neighborhood_مدائن الفهد',
+                'Neighborhood_مطار الملك خالد الدو…',
+                'Neighborhood_معكال',
+                'Neighborhood_منفوحة',
+                'Neighborhood_نمار',
+                'Neighborhood_هيت'
+            ];
+
+            for (i = 0; i < options.length; i++) {
+                opt = options[i];
+                el = document.createElement("option");
+                el.textContent = opt.substring(13, opt.length);
+                el.value = opt;
+                select.appendChild(el);
+            }
+        };
+
+
+        function be() {
+
+            // console.log(document.getElementById("space").value + "Sdadsa")
+            // console.log(encodeURIComponent(document.getElementById("neighborhood").value))
+            console.log('http://localhost:5004/?meter=' + document.getElementById("space").value + '&neigh=' + encodeURIComponent(document.getElementById("neighborhood").value))
+            fetch('http://localhost:5004/?meter=' + document.getElementById("space").value + '&neigh=' + encodeURIComponent(document.getElementById("neighborhood").value), {
+                    headers: {}
+                })
+                .then(response => response.json())
+                .then(CR => {
+                    console.log("====>+" + CR.price)
+                    document.getElementById("price").value = Math.trunc(CR.price)
+
+                }).catch(reason => console.log(reason))
+        }
+    </script>
+
+
+</head>
+
+<body onload="myFunction()">
+    <!-- PRELOADER -->
+    <div id="loader-wrapper">
+        <div id="loader">
+            <div class="sk-spinner sk-spinner-cube-grid">
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <section id="header">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8">
+
+                    <h1 class="white-text">Saudi Real Estate Application</h1>
+
+                    <div id="countdown" class="white-text"></div>
+                </div>
+            </div>
+
+        </div>
+        <!-- CONTACT FORM -->
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div data-sr="enter left over 1s, wait 0.3s, move 24px, reset" class="form-group col-md-6">
+            <input type="number" class="form-control .space" id="space" name="space" placeholder="space" />
+        </div>
+        <div data-sr="enter right over 1s, wait 0.3s, move 24px, reset" class="form-group col-md-6">
+            <select id="neighborhood" name="neighborhood" placeholder="neighborhood" class="form-control .neighborhood">
+
+
+					</select>
+
+        </div>
+        </div>
+        <div data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset" class="form-group col-sm-12 ">
+            <button class="button-leweb" onclick="be()">compute</button>
+            <br/>
+            <br/>
+            <!-- AFTER SENDING MESSAGE -->
+        </div>
+        <div data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset" class="form-group col-md-12">
+            <input type="text" class="form-control .price" id="price" name="price" placeholder="price" />
+        </div>
+
+
+        <div class="animation">
+            <a class="arrow-down-animation" data-scroll href="#about"><i class="fa fa-angle-down"></i></a>
+        </div>
+    </section>
+    <!-- HEADER ENDS -->
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SMOOTH SCROLL -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <!-- PARALLAX IMG -->
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <!-- SCROLL REVEAL -->
+    <script src="js/scrollReveal.min.js"></script>
+    <!-- FUNCTIONS -->
+    <script src="js/functions.js"></script>
+
+    <script src="js/select.js"></script>
+
+</body>
+
+</html>
